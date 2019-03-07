@@ -1,0 +1,43 @@
+.homepage-main {
+	height: 100%;
+}
+
+.wrapper {
+	background-image: url("../resources/BG@2x.jpg");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.vashisht-logo {
+	height: 15rem;
+	width: 20rem;
+}
+
+.vashisht-text {
+	height: 10rem;
+	width: 27rem;
+}
+
+.iiitdm-text {
+	height: 10rem;
+	width: 10rem;
+	margin-top: 3.8em !important;
+}
+
+.vashisht-tape {
+	height: 48em;
+	width: 21em;
+}
+
+.ui.grid {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: inherit !important;
+	overflow: hidden !important;
+}
+
+.two.column.row {
+	margin: 0 !important;
+	padding: 0 !important;
+}

@@ -1,0 +1,159 @@
+@font-face {
+    font-family: timer;
+    src: url(../../resources/fonts/01\ Digitall.ttf);
+}
+
+body{   
+    position:absolute;
+    background:url('../../resources/commingSoon/BG@2x.jpg');
+    background-repeat: no-repeat;
+    background-size:cover,contain;
+    min-width: 100%;
+    height: 100%;
+}
+
+#root{
+    height:100%;
+}
+
+.timer{
+    color:#9A1919;
+    font-size: 3.5vw;
+    font-family:timer;
+    background-image:url('../../resources/commingSoon/Countdown.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:75% auto,contain;
+}
+
+.ticking-time{
+    margin-bottom:0;
+    text-align:center;
+}
+
+.timer-text{
+    margin-top:-1rem;
+    text-align:center;
+    color:#C5913B;
+    font-size: 1.25vw;
+}
+
+.col{
+    height:100%;
+}
+
+.cross-border{
+    background:url('../../resources/commingSoon/Coming\ Soon\ Tape.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 38%;
+}
+
+.logo{
+    width:50%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.count-down{
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+}
+
+.logo-main1{
+    width:20%;
+}
+
+.logo-main2{
+    width:35%;
+}
+
+.logo-main3{
+    width:75%;
+}
+
+.container{
+    min-width:90%; 
+    height:100%;
+}
+
+.row{
+    height:inherit;
+}
+
+@media (max-width: 576px){
+    body{
+        background:url('../../resources/mobile/BG@2x.png');
+        background-repeat: no-repeat;
+        background-size:cover,contain;
+    }
+    .cross-border{
+        top:-20vw;
+        background:url('../../resources/mobile/Coming\ Soon\ Tape@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 10%;
+        height:35vw;
+    }
+    .mobile-col1{
+        height:10%;
+    }
+    .mobile-col{
+        top:-6vh;
+    }
+    .logo-main1{
+        width:25%;
+    }
+    .logo-main2{
+        width:45%;
+    }
+    .logo-main3{
+        width:95%;
+    }
+    .count-down{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+        height:20vw;
+    }
+    .timer{
+        font-size:5vh;
+    }
+    .timer-text{
+        margin-top:-3vw;
+        font-size: 2vh;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 767px) and (orientation:portrait){
+    body{
+        background:url('../../resources/mobile/BG@2x.png');
+        background-repeat: no-repeat;
+        background-size:cover,contain;
+    }
+    .cross-border{
+        top:-6vh;
+        background:url('../../resources/mobile/Coming\ Soon\ Tape@2x.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: 10%;
+        height:35vw;
+    }
+    .container{
+        min-width:100%;
+    }
+    .count-down{
+        margin-left:auto;
+        margin-right:auto;
+        width:100%;
+        height:20vw;
+    }
+    .timer{
+        font-size:9vw;
+    }
+    .timer-text{
+        font-size: 2vh;
+    }
+}

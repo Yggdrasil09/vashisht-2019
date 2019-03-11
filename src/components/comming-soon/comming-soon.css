@@ -31,7 +31,9 @@ body{
     text-align:center;
 }
 
-.timer-text{
+.timer-text{    
+    text-transform: uppercase;
+    letter-spacing:0.75vh;
     margin-top:-1rem;
     text-align:center;
     color:#C5913B;
@@ -83,6 +85,16 @@ body{
     height:inherit;
 }
 
+.social-icons{
+    height:3vw;
+    padding-left:1vw;
+}
+
+.social{
+    position: absolute;
+    bottom:2%;
+}
+
 @media (max-width: 576px){
     body{
         background:url('../../resources/mobile/BG@2x.png');
@@ -122,9 +134,17 @@ body{
         font-size:5vh;
     }
     .timer-text{
-        margin-top:-3vw;
+        margin-top:-1.5vw;
         font-size: 2vh;
     }
+    .social-icons{
+        height:5vh;
+        padding-left:2vh;
+    }
+    .social{
+        position: absolute;
+        bottom:5vh;
+    }    
 }
 
 @media (min-width: 577px) and (max-width: 767px) and (orientation:portrait){

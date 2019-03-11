@@ -19,20 +19,20 @@ class CountdownTime extends Component{
 		return(
 			<Row className='count-down'>
 				<Col xs ={3} sm={3} className='timer'>
-					<p className='ticking-time'>{this.props.days}</p>
+					<p className='ticking-time' >{this.props.days}</p>
 					<p className="timer-text">Days</p>
 				</Col>
 				<Col xs ={3} sm={3} className='timer'>
 					<p className="ticking-time">{this.props.hours}</p>
-					<p className="timer-text">Hours</p>
+					<p className="timer-text">Hrs</p>
 				</Col>
 				<Col xs ={3} sm={3} className='timer'>
 					<p className="ticking-time">{this.props.minutes}</p>
-					<p className="timer-text">Minutes</p>
+					<p className="timer-text">Min</p>
 				</Col>
 				<Col xs ={3} sm={3} className='timer'>
 					<p className="ticking-time">{this.props.seconds}</p>
-					<p className="timer-text">Seconds</p>
+					<p className="timer-text">Sec</p>
 				</Col>
 			</Row>
 		);

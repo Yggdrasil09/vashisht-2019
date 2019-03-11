@@ -8,6 +8,7 @@
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.3",
     "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
     "redux": "^4.0.1",
     "serve": "^10.1.2"
   },
@@ -18,14 +19,14 @@
     "react-scripts": "2.1.5"
   },
   "scripts": {
-		"dev": "react-scripts start",
+    "dev": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write **/*.js",
-		"lint": "eslint .",
-		"heroku-postbuild": "yarn build"
+    "lint": "eslint .",
+    "heroku-postbuild": "yarn build"
   },
   "eslintConfig": {
     "extends": "react-app"

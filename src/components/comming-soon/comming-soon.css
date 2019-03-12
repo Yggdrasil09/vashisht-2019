@@ -3,7 +3,7 @@
     src: url(../../resources/fonts/01\ Digitall.ttf);
 }
 
-body{   
+body{
     position:absolute;
     background:url('../../resources/commingSoon/BG@2x.jpg');
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@ body{
     text-align:center;
 }
 
-.timer-text{    
+.timer-text{
     text-transform: uppercase;
     letter-spacing:0.75vh;
     margin-top:-1rem;
@@ -77,7 +77,7 @@ body{
 }
 
 .container{
-    min-width:90%; 
+    min-width:90%;
     height:100%;
 }
 
@@ -143,8 +143,9 @@ body{
     }
     .social{
         position: absolute;
-        bottom:5vh;
-    }    
+				bottom:5vh;
+				z-index: 1;
+    }
 }
 
 @media (min-width: 577px) and (max-width: 767px) and (orientation:portrait){

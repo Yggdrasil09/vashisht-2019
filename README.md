@@ -18,7 +18,7 @@ yarn install
 #### Start the app
 
 ```sh
-yarn start
+yarn dev
 ```
 
 ### Authors ✍️

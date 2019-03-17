@@ -1,0 +1,115 @@
+@font-face {
+    font-family: rubik;
+    src: url(../resources/fonts/Rubik-Regular.ttf);
+}
+
+header{
+    text-align:center;
+}
+
+.upper-image{
+    height:7vh;
+}
+
+.close{
+    display:none;
+}
+
+.nav-header{
+    padding-top:2vh;
+    width:inherit;
+    max-width:100%;
+    background:#0C131D;
+}
+
+.nav-header-row{
+    width:inherit;
+    max-width:100%;
+}
+
+.navbar{
+    padding-top:2vh;
+}
+
+.navbar p{
+    font-family:rubik;
+    color:#E4E4E4;
+}
+
+.navbar p:hover{
+    border-bottom: 3px solid #D4145A;
+    border-radius:1px;
+}
+
+.navbar a:link {
+    text-decoration: none;
+}
+
+.navbar a{
+    margin:0;
+}
+
+.social-icons img{
+    height:5vh;
+    margin:1vh;
+    float:right;
+}
+
+.hamburger{
+    display:none;
+}
+
+@media (max-width: 670px){
+    .hamburger{
+        display:block;
+        padding:5vh;
+        float:left;
+    }
+    .upper-image{
+        visibility:hidden;
+    } 
+    header{     
+        height:100%;
+    }  
+    .nav-header{
+        position:absolute;
+        right:30%;
+    }
+    .navbar {
+        display:block;
+        margin-left:100%;
+        margin-top:23vh;
+    }
+    .navbar p{
+        font-size:3.5vh;
+    }
+    .navbar a{
+        height:100%;
+    }
+    .nav-header-row{
+        width:50%;
+    }
+    .nav-header.active{
+        display:none;
+    }
+    .close{
+        display:block;
+        height:10vw;
+    }
+    .main-head{
+        position:absolute;
+        width:100%;
+    }
+    .social-col{
+        position:absolute;
+        bottom:15vh;
+        width:100%;
+    }
+    .social-icons{
+        position:absolute;
+        margin-left:18vw;
+    }
+    .social-icons img{
+        height:9vh;
+    }
+}

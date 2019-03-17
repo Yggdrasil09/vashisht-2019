@@ -1,0 +1,105 @@
+@font-face {
+    font-family: rubik;
+    src: url(../../resources/fonts/Rubik-Regular.ttf);
+}
+
+.section{
+    z-index:1;
+    background:url('../../resources/homepage/Gradient.jpg');
+    background-size:cover;
+}
+
+.about{
+    background:url('../../resources/homepage/about\ us\ bg\ web.png');
+    background-repeat:no-repeat;
+    background-size:90% 80%;
+    background-position:50% 70%;
+}
+
+.logo1 img,.logo2 img,.logo3 a {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.logo1 img{
+    margin-top:14vh;
+    height:44vh;
+}
+
+.logo2 img{
+    height:20vh;
+}
+
+.logo3 img{
+    margin-top:7vh;
+    height:7vh;
+}
+
+.about .col{
+    text-align:center;
+    color:white;
+}
+
+.about p{
+    margin-top:20vh;
+    font-family:rubik;
+    font-size:7vw;
+}
+
+.about h5{
+    width:70%;
+    font-family:rubik;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.teaser .col{
+    text-align:center;
+    color:white;
+}
+
+.teaser p{
+    margin-top:12vh;
+    font-family:rubik;
+    font-size:7vw;
+}
+
+.coming .col{
+    text-align:center;
+    color:white; 
+}
+
+.coming p{
+    font-family:rubik;
+    font-size:7vw;
+    margin-top:35vh;
+}
+
+@media (max-width: 670px){
+    .section{
+        background:url('../../resources/mobile/Mobile\ BG.png');
+        background-size:cover;
+    }
+    .logo1 img{
+        margin-top:15vh;
+        height:45vh;
+    }
+    .logo2 img{
+        height:18vh;
+    }
+    .logo3 img{
+        margin-top:7vh;
+        height:7vh;
+    }
+    .about{
+        background:url('../../resources/mobile/About\ bg.png');
+        background-repeat:no-repeat;
+        background-size:90% 80%;
+        background-position:50% 70%;
+    }
+    .about h5{
+        font-size:2.75vh;
+    }
+}

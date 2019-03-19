@@ -40,10 +40,10 @@ class Navbar extends Component{
 						</Col>
 						<Col sm={6} className='navbar'>
 							<span onClick={this.handleMenu}><NavLink to='/'><p>HOME</p></NavLink></span>
-							<span onClick={this.handleMenu}><NavLink to='/coming'><p>EVENTS</p></NavLink></span>
-							<span onClick={this.handleMenu}><NavLink to='/coming'><p>TALKS</p></NavLink></span>
-							<span onClick={this.handleMenu}><NavLink to='/coming'><p>TEAM</p></NavLink></span>
-							<span onClick={this.handleMenu}><NavLink to='/coming'><p>SPONSORS</p></NavLink></span>
+							<span onClick={this.handleMenu}><NavLink to='/events'><p>EVENTS</p></NavLink></span>
+							<span onClick={this.handleMenu}><NavLink to='/talks'><p>TALKS</p></NavLink></span>
+							<span onClick={this.handleMenu}><NavLink to='/team'><p>TEAM</p></NavLink></span>
+							<span onClick={this.handleMenu}><NavLink to='/sponsors'><p>SPONSORS</p></NavLink></span>
 						</Col>
 						<Col sm={3} className='social-col'>
 							<div className='social-icons'>

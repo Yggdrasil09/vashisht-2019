@@ -7,7 +7,7 @@ import text from '../../resources/homepage/Vashisht Text@2x.png';
 import arrow from '../../resources/homepage/Down@2x.png';
 
 class Home extends Component{
-	
+
 	render(){
    	return(
 			<Container>
@@ -21,7 +21,7 @@ class Home extends Component{
 							<img src={text} alt='vashisht text'/>
 						</Row>
 						<Row className='logo3'>
-							<a href='#sectionTwo'><img src={arrow}alt='arrow down'></img></a>
+							<a href='#About'><img src={arrow}alt='arrow down'></img></a>
 						</Row>
 					</Col>
 					<Col sm={3}></Col>

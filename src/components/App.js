@@ -10,16 +10,19 @@ import Navbar from './Navbar';
 class App extends Component {
 	render() {
 		return (
-			<BrowserRouter>				
+			<BrowserRouter>
 				<div className='main-div'>
 					<Header>
 						<Navbar/>
 					</Header>
 					<Switch>
 						<Route path='/' component={HomePage} exact/>
-						<Route component={Coming}/>
+						<Route path='/events' component={Coming}/>
+						<Route path='/talks' component={Coming}/>
+						<Route path='/team' component={Coming}/>
+						<Route path='/sponsors' component={Coming}/>
 					</Switch>
-				</div>				
+				</div>
 			</BrowserRouter>
 		);
 	}

@@ -1,0 +1,104 @@
+@font-face {
+	font-family: rubik;
+	src: url(../../resources/fonts/Rubik-Regular.ttf);
+}
+.container.team1 {
+	background-image: url("../../resources/homepage/Gradient.jpg");
+	min-width: 100%;
+	height: auto;
+	background-repeat: repeat-y;
+}
+
+.card {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
+	width: 30vh;
+	transition: border 0.5s ease;
+	border: 0.5vh solid white;
+	border-radius: 8px;
+}
+.card:hover {
+	border: 0.5vh solid #bdc696;
+}
+.card h1 {
+	padding: 2vh 0.5vh 0.5vh 0.5vh;
+	font-family: rubik;
+	font-size: 2.4vh;
+	text-align: center;
+	color: white;
+}
+hr {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+	background-color: white;
+}
+.row.team {
+	margin-top: 4vh;
+	padding-bottom: 10vh;
+}
+.photo {
+	height: 30vh;
+	width: 29vh;
+	overflow: hidden;
+	object-fit: cover;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.team1 p {
+	padding-top: 10vh;
+	font-family: rubik;
+	font-size: 7vw;
+	text-align: center;
+	color: white;
+}
+h1 {
+	padding-top: 5vh;
+	font-family: rubik;
+	font-size: 7vh;
+	text-align: center;
+	color: white;
+}
+.row.media1 {
+	padding: 20px;
+}
+.row.media1 a {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.row.media1 a img {
+	width: 3.5vh;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.far,
+.fab {
+	color: white;
+	transition: color 0.5s ease;
+}
+.far:hover,
+.fab:hover {
+	color: #bdc696;
+}
+a:hover {
+	text-decoration: none;
+}
+@media (max-width: 768px) {
+	.card {
+		margin-top: 2rem;
+	}
+	.row.media1 a img {
+		width: 4vh;
+		height: auto;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

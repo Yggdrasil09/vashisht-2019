@@ -7,6 +7,7 @@ import HomePage from "./homepage/HomePage";
 import Coming from "./comming-soon/Coming";
 import Navbar from "./Navbar";
 import Teams from "./Teams/teams";
+import Talks from "./talks/talks";
 
 class App extends Component {
 	componentDidMount() {
@@ -30,7 +31,7 @@ class App extends Component {
 					<Switch>
 						<Route path="/" component={HomePage} exact />
 						<Route path="/events" component={Coming} />
-						<Route path="/talks" component={Coming} />
+						<Route path="/talks" component={Talks} />
 						<Route path="/team" component={Teams} />
 						<Route path="/sponsors" component={Coming} />
 					</Switch>

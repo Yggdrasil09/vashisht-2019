@@ -1,0 +1,32 @@
+.talks1 {
+	background-image: url("../../resources/talks/talkbg.png");
+	min-width: 100%;
+	min-height: 100%;
+	background-size: cover;
+}
+.talks1 p {
+	padding-top: 9vh;
+	font-family: rubik;
+	font-size: 10vh;
+	text-align: center;
+	color: white;
+}
+.hello {
+	min-width: 100%;
+	min-height: 100%;
+}
+
+.hello img {
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
+	width: 55vh;
+	display: block;
+	position: absolute;
+	top: 10vh;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
+	margin: auto;
+}

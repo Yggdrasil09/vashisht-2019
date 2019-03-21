@@ -2,7 +2,7 @@ const organizers = [
 	{
 		image: require("../../resources/team/o1.jpeg"),
 		name: "Rohan Kumar Panda",
-		number: '+91-9999999999',
+		number: '+91-9437830423',
 		email: 'technical.affairs@iiitdm.ac.in',
 		linkedin:'#',
 		instagram: '#'
@@ -29,13 +29,13 @@ const organizers = [
 		number: '+91-9030767989',
 		email: 'cocurricular.affairs@iiitdm.ac.in',
 		linkedin:'https://www.linkedin.com/in/aiyush-goyal/',
-		instagram: '#'
+		instagram: 'https://www.instagram.com/aiyushgoyal/'
 	}
 ];
 
 const publicity = [
 	{
-		image: require("../../resources/team/qms.jpg"),
+		image: require("../../resources/team/q2.jpg"),
 		name: "Bhargav Chakravartula",
 		number: '+91-7550172269',
 		email: 'evd16i018@iiitdm.ac.in',
@@ -70,22 +70,38 @@ const publicity = [
 
 const qms = [
 	{
-		image: require("../../resources/team/qms.jpg"),
+		image: require("../../resources/team/q1.jpg"),
+		name: "Shubham raj",
+		number: '+91- ',
+		email: 'esd16i012@iiitdm.ac.in',
+		linkedin:'#',
+		instagram: '#'
+	},
+	{
+		image: require("../../resources/team/q2.jpg"),
 		name: "Bhargav Chakravartula",
-		number: '+91-7550172269',
+		number: '+91 7550172269',
 		email: 'evd16i018@iiitdm.ac.in',
 		linkedin:'https://www.linkedin.com/in/bhargav-n-c-3974b5149/',
 		instagram: 'https://www.instagram.com/bhargav_chakravartula/'
+	},
+	{
+		image: require("../../resources/team/1.png"),
+		name: "Rajesh",
+		number: '+91-',
+		email: 'msm16b026@iiitdm.ac.in',
+		linkedin:'#',
+		instagram: '#'
 	}
 ];
 
 const sponsorship = [
 	{
-		image: require("../../resources/team/1.png"),
+		image: require("../../resources/team/o4.JPG"),
 		name: "Aiyush Goyal",
-		number: '+91-9999999999',
-		email: 'mdm16b002@iiitdm.ac.in',
-		linkedin:'#',
+		number: '+91-9030767989',
+		email: 'cocurricular.affairs@iiitdm.ac.in',
+		linkedin:'https://www.linkedin.com/in/aiyush-goyal/',
 		instagram: 'https://www.instagram.com/aiyushgoyal/'
 	}
 ];
@@ -146,6 +162,14 @@ const gdc2 = [
 
 const webops = [
 	{
+		image: require("../../resources/team/w1.jpeg"),
+		name: "Kenneth Karthik",
+		number: '+91-9500178494',
+		github: 'https://github.com/kennethkarthik',
+		linkedin:'https://www.linkedin.com/in/kennethkarthik/',
+		instagram: 'https://www.instagram.com/kennethkarthik/'
+	},
+	{
 		image: require("../../resources/team/1.png"),
 		name: "Karthik Chowdary",
 		number: '+91-8309489959',
@@ -165,17 +189,17 @@ const webops = [
 
 const finance = [
 	{
-		image: require("../../resources/team/1.png"),
+		image: require("../../resources/team/o2.jpg"),
 		name: "Vivek Yadav",
-		number: '+91-8190920888',
-		email: 'technical.affairs@iiitdm.ac.in ',
+		number: '+91 8190920888',
+		email: 'technical.affairs@iiitdm.ac.in',
 		linkedin:'https://www.linkedin.com/in/vivek-yadav-8909a0142/',
 		instagram: 'https://www.instagram.com/a._.free._.radical/'
 	},
 	{
-		image: require("../../resources/team/1.png"),
+		image: require("../../resources/team/f1.jpg"),
 		name: "Yuvraj Singh",
-		number: '+91-9999999999',
+		number: '+91-',
 		email: '#',
 		linkedin:'#',
 		instagram: '#'

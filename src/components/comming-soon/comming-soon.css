@@ -3,14 +3,14 @@
     src: url(../../resources/fonts/01\ Digitall.ttf);
 }
 
-body{
+/* body{
     position:absolute;
     background:url('../../resources/commingSoon/BG@2x.jpg');
     background-repeat: no-repeat;
     background-size:cover,contain;
     min-width: 100%;
     height: 100%;
-}
+} */
 
 #root{
     height:100%;
@@ -85,10 +85,19 @@ body{
 .row{
     height:inherit;
 }
-
 .social-icons{
-    height:3vw;
+    min-width: 100%;
+	min-height: 100%;
+}
+.social-icons i{
     padding-left:1vw;
+}
+.social-icons .fab {
+	color: white;
+	transition: color 0.5s ease;
+}
+.social-icons .fab:hover {
+	color: #E5BB01;
 }
 
 .social{

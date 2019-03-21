@@ -32,7 +32,7 @@ class Teams extends Component {
 				<h1>Quality Management Services</h1>
 				<Row className="team">
 					{Data.qms.map(items => (
-						<Col key={items.number} lg={12}>
+						<Col key={items.number} lg={4}>
 							<Card image={items.image} name={items.name} number={items.number} email={items.email} linkedin={items.linkedin} instagram={items.instagram} />
 						</Col>
 					))}
@@ -66,7 +66,7 @@ class Teams extends Component {
 				<h1>WebOps Team</h1>
 				<Row className="team">
 					{Data.webops.map(items => (
-						<Col key={items.number} lg={6}>
+						<Col key={items.number} lg={4}>
 							<CardWebops image={items.image} name={items.name} number={items.number} github={items.github} linkedin={items.linkedin} instagram={items.instagram} />
 						</Col>
 					))}

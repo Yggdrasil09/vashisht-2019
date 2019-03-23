@@ -1,0 +1,94 @@
+@font-face {
+    font-family: rubik;
+    src: url(../../resources/fonts/Rubik-Regular.ttf);
+}
+
+.section{
+    z-index:1;
+    background:url('../../resources/homepage/Gradient.jpg');
+    background-size:cover;
+}
+
+.events-col{
+    height:90%;
+    min-width:100%;
+    min-height:90%;
+}
+
+.events-heading{
+    color:white;
+    margin-top:10vh;
+    text-align:center;
+    font-family: rubik;
+    font-size:14vh;
+    height:18vh;
+}
+
+#back_arrow{
+    cursor:pointer;
+    position:absolute;
+    visibility:hidden;
+    left:7vh;
+    margin-top:7vh;
+    height:7vh;
+}
+
+#back_arrow.active{
+    visibility: visible;
+}
+
+.events{
+    height:10.5rem;
+    cursor:pointer;
+}
+
+.club{
+    padding:0;
+}
+
+#zerone.active,#electronics.active,#epic.active,#robotics.active,#ids.active,#sae.active{
+    position:absolute;
+    -webkit-filter: blur(0);
+    filter: blur(0); 
+    box-shadow:-1px 1px 12px 9px rgba(0,0,0,0);
+    z-index:5;
+}
+
+#zerone,#electronics,#epic,#robotics,#ids,#sae{
+    -webkit-filter: blur(2rem);
+    filter: blur(2rem); 
+    z-index:1;
+}
+
+#zerone{
+    z-index:4;
+}
+
+.club img{
+    width:100%;
+    height:25vh;
+}
+
+@media (max-width: 575px)
+{
+    .events-heading p{
+        position:fixed;
+        margin-top:-4vh;
+        font-size:8vh;
+        margin-left:25%;
+    }
+    .events-heading img{
+        position:fixed;
+    }
+    .events-col{
+        position:fixed;
+        z-index:2!important;
+    }
+    .events{
+        z-index:4!important;
+        height:25vh;
+    }
+    .display-pos1{
+        padding-top:40vh;
+    }
+}

@@ -68,9 +68,12 @@ header{
     .upper-image{
         visibility:hidden;
     } 
-    header{     
-        height:100%;
-    }  
+    .side-header{
+        min-height:100vh;
+    }
+    .side-header.active{
+        min-height:100%;
+    }
     .nav-header{
         position:absolute;
         right:30%;

@@ -22,11 +22,12 @@ class Navbar extends Component{
 		e.preventDefault();
 		let ham_icon = document.getElementsByClassName('nav-header');
 		ham_icon[0].classList.toggle('active');
+		document.getElementsByClassName('side-header')[0].classList.toggle('active');
 	};
 
 	render(){
 		return(
-			<div>
+			<div className='side-header active'>
 				<div className='hamburger'>
 					<img src={ham} alt='hamburger icon' onClick={this.handleMenu}/>
 				</div>
@@ -40,7 +41,7 @@ class Navbar extends Component{
 						</Col>
 						<Col sm={6} className='navbar'>
 							<span onClick={this.handleMenu}><NavLink to='/'><p>HOME</p></NavLink></span>
-							<span onClick={this.handleMenu}><NavLink to='/coming'><p>EVENTS</p></NavLink></span>
+							<span onClick={this.handleMenu}><NavLink to='/events'><p>EVENTS</p></NavLink></span>
 							<span onClick={this.handleMenu}><NavLink to='/coming'><p>TALKS</p></NavLink></span>
 							<span onClick={this.handleMenu}><NavLink to='/coming'><p>TEAM</p></NavLink></span>
 							<span onClick={this.handleMenu}><NavLink to='/coming'><p>SPONSORS</p></NavLink></span>

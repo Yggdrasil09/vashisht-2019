@@ -6,10 +6,10 @@ import {Provider} from 'react-redux';
 import "./styles/index.css";
 import App from "./components/App";
 import * as serviceWorker from "./serviceWorker";
-import timereducer from './reducers/TimeReducer.js';
+import TriggerEvents from './reducers/TriggerEvents';
 
 
-const store = createStore(timereducer);
+const store = createStore(TriggerEvents);
 
 ReactDOM.render(
 	<Provider store={store}>

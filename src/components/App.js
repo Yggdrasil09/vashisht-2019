@@ -35,7 +35,6 @@ class App extends Component {
 						<Route path="/talks" component={Talks} />
 						<Route path="/team" component={Teams} />
 						<Route path="/sponsors" component={Coming} />
-						<Route component={Coming}/>
 					</Switch>
 				</div>
 			</BrowserRouter>
